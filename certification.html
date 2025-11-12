@@ -7,6 +7,8 @@
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
 </head>
+<script src="script.js"></script>
+
 <body>
   <!-- Header -->
   <header>
@@ -31,35 +33,46 @@
  <section id="certifications">
   <h2>Certifications</h2>
 
-  <!-- Certification 1 -->
-  <div class="certification-item">
-    <h3>MOOC de l'ANSSI - SecNumacadémie</h3>
-    <img src="Image/Certifications/ANSSI.png" alt="Certificat ANSSI">
+  
+  
+
+ <section id="certifications">
+  <h2>CERTIFICATIONS</h2>
+  <div class="cert-container">
+    <div class="cert-card">
+      <h3>Certification MOONC ANSSI</h3>
+      <button onclick="openCert('cert1')">Voir</button>
+    </div>
+    <div class="cert-card">
+      <h3>Certification CNIL - RGPD</h3>
+      <h4>Module 1</h4>
+      <button onclick="openCert('certA')">Voir</button>
+      <h4>Module 2</h4>
+      <button onclick="openCert('certB')">Voir</button>
+      <h4>Module 3</h4>
+      <button onclick="openCert('certC')">Voir</button>
+      <h4>Module 4</h4>
+      <button onclick="openCert('certD')">Voir</button>
+      <h4>Module 5</h4>
+      <button onclick="openCert('certE')">Voir</button>
+    </div>
+    <div class="cert-card">
+      <h3>Certification CISCO</h3>
+      <button onclick="openCert('cert3')">Voir</button>
+    </div>
+    <div class="cert-card">
+      <h3>Certification PIX</h3>
+      <button onclick="openCert('cert4')">Voir</button>
+    </div>
   </div>
 
-  <!-- Certification 2 -->
-  <div class="certification-item">
-  <h3>CNIL - RGPD</h3>
-  <div class="rgpd-gallery">
-    <img src="Image/Certifications/RGPDM1.png" alt="RGPDM1">
-    <img src="Image/Certifications/RGPDM2.png" alt="RGPDM2">
-    <img src="Image/Certifications/RGPDM3.png" alt="RGPDM3">
-    <img src="Image/Certifications/RGPDM4.png" alt="RGPDM4">
-    <img src="Image/Certifications/RGPDM5.png" alt="RGPDM5">
-  </div>
-</div>
-
-  <!-- Certification 2 -->
-  <div class="certification-item">
-    <h3>CISCO</h3>
-    <img src="images/certifications/autre-certificat.png" alt="Autre Certificat">
-  </div>
-  <!-- Certification 2 -->
-  <div class="certification-item">
-    <h3>PIX</h3>
-    <img src="images/certifications/autre-certificat.png" alt="Autre Certificat">
+  <!-- Modal hiển thị ảnh -->
+  <div id="certModal" class="modal">
+    <span class="close" onclick="closeCert()">&times;</span>
+    <img id="certImage" src="" alt="Certification">
   </div>
 </section>
+
 
   <!-- Footer -->
   <footer>
