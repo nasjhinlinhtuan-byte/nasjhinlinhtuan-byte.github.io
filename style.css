@@ -221,7 +221,7 @@ footer {
 
 /* Hình nền riêng cho từng trường */
 .formation-cassin .formation-image {
-  background-image: url("Image/Formations/Rene_Cassin.jpg");
+  background-image: url("Image/Formations/renecassin.jpg");
 }
 
 .formation-ups .formation-image {
@@ -415,6 +415,22 @@ footer {
   color: #444;
   line-height: 1.4;
 }
+
+.stage-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stage-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
 
 
 
