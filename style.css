@@ -233,6 +233,32 @@ footer {
 }
 
 
+
+
+.formation-agenda .formation-image {
+  background-image: url("Image/projet/agenda.png");
+}
+
+.formation-instalation .formation-image {
+  background-image: url("Image/projet/installation_satation.png");
+}
+
+.formation-csv .formation-image {
+  background-image: url("Image/projet/csvtoexcel.png");
+}
+
+
+
+
+
+
+
+
+.projet-agenda .projet-image {
+  background-image: url("https://via.placeholder.com/250x150");
+}
+
+
 #competences {
   max-width: 1000px;
   margin: 3rem auto;
